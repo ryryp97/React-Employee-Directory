@@ -138,5 +138,19 @@
         "role": "Product Manager",
         "department": "Engineering",
         "image":"./img/zachbonds.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Monkey D Luffy",
+        "role": "Sales Person",
+        "department": "Sales",
+        "image":"./img/luffy.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Roronoa Zoro",
+        "role": "Sales Person",
+        "department": "Sales",
+        "image":"./img/luffy.jpg"
     }
 ]

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Container from "../components/Container";
+import Wrapper from "../components/Wrapper";
 import staff from "../staff.json";
 import EmployeeCard from "../components/EmployeeCard"
 
@@ -20,6 +20,7 @@ function Gallery() {
   }
 
   return (
+    <Wrapper>
     <div>
         <h1 className="text-center">Staff Directory</h1>
         <div className="row">
@@ -44,13 +45,14 @@ function Gallery() {
               id={employee.id}
               key={employee.id}
               name={employee.name}
-              image={employee.image}
+              // image={employee.image}
               role={employee.role}
               department={employee.department}
             />
           ))}
         </div>
     </div>
+    </Wrapper>
   );
 
 }
