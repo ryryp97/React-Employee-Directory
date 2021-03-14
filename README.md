@@ -8,7 +8,7 @@ This repository contains a Staff Directory application that utilizes react to re
 
 To run this application locally, simply download the repo onto your local device and you can use the given json file holding the employee data, or supply your own.
 
-Alternatively you can checkout the site here: 
+Alternatively you can checkout the site here: [React-Employee-Directory](https://ryryp97.github.io/React-Employee-Directory/) 
 
 ### Credits
 
